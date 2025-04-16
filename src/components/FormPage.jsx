@@ -35,7 +35,7 @@ const FormPage = () => {
   };
 
   return (
-    <div style={{ backgroundImage: "url('https://yourdomain.com/background2.jpg')", backgroundSize: "cover", padding: "20px" }}>
+    <div style={{ backgroundImage: "url('https://www.tirumala.org/images/TTD%20Trust%20Board%20Members/TTD-BOARD-PAGE-PIC.jpg')", backgroundSize: "cover", padding: "20px" }}>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
           <input name="name" value={formData.name} onChange={handleChange} placeholder="Name" required />
